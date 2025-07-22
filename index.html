@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=The+Girl+Next+Door&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>portfolio</title>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-right">
+    <a href="#work">Work</a>
+    <a href="about.html">About</a>
+    <a href="https://drive.google.com/file/d/1OQkHc0AKKpIz-l9LAQmunw1eNr05wZ6l/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<main>
+  <!-- Intro -->
+  <div class="intro">
+    <p>Illa is a curious and creative developer who loves bringing ideas to life through code. Studying Electronics and Communication at IGDTUW with a growing interest in machine learning and web development, 
+        she enjoy exploring new technologies, working with others, and building projects that are not just functional but meaningful and fun to use.</p>
+  </div>
+
+  <!-- Main Project Section -->
+  <div class="container">
+    <div class="tab-buttons">
+      <button class="tab-btn active" data-tab="ai-ml">AI-ML</button>
+      <button class="tab-btn" data-tab="ui-ux">UI-UX</button>
+      <button class="tab-btn" data-tab="frontend">Frontend</button>
+    </div>
+
+    <!-- AI-ML -->
+    <div class="tab-content active" id="ai-ml">
+      <div class="project-grid">
+        <div class="project-card" style="background-color: #1c7c5c;">
+          <img src="emotions.png" alt="Project Thumbnail">
+          <div class="project-info">
+            <h3>Emotion Detection System</h3>
+            <p class="tech-stack">Tech-Stack : Python, Deep Learning, CNN</p>
+            <p class="description">
+              This project involves using deep learning algorithms to identify and classify seven human emotions from 35,887
+              facial expressions images.
+            </p>
+            <a href="https://github.com/illa08" target="_blank" class="github-btn">View on GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card" style="background-color: #fc4444;">
+          <img src="crop_yield.png" alt="Project Thumbnail">
+          <div class="project-info">
+            <h3>Crop Yield Prediction</h3>
+            <p class="tech-stack">Tech-Stack: Python, Machine Learning</p>
+            <p class="description">
+              Created this project using various machine learning algorithm and achieved an accuracy of 98% on testing data.
+            </p>
+            <a href="https://github.com/illa08/Crop_yield_prediction" target="_blank" class="github-btn">View on GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card" style="background-color: #3c4cd4;">
+          <img src="skin_cancer.png" alt="Project Thumbnail">
+          <div class="project-info">
+            <h3>Skin Cancer Classification</h3>
+            <p class="tech-stack">Tech-Stack: Deep Learning, Hybrid Model</p>
+            <p class="description">
+              Created a skin cancer classification model which is tested on different architecture including custom made hybrid model combining ResNet50 and EfficientNetB0 which gave testing accuracy of 83.23%.
+            </p>
+            <a href="https://github.com/yourusername/yourproject" target="_blank" class="github-btn">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- UI-UX -->
+    <div class="tab-content" id="ui-ux">
+      <div class="project-grid">
+        <div class="project-card" style="background-color: #fc8cdc;">
+          <img src="web_redesign.png" alt="Project Thumbnail">
+          <div class="project-info">
+            <h3>Website Redesign</h3>
+            <p class="tech-stack">Tech-Stack: Figma</p>
+            <p class="description">I redesigned the website to make it more simple and user friendly</p>
+            <a href="https://www.figma.com/design/oJFSTyu3Qf91fdzyw0ejZ5/figmastic?node-id=0-1&t=pHwyGbakA9eFtnCL-1" target="_blank" class="github-btn">View on Figma</a>
+          </div>
+        </div>
+
+        <div class="project-card" style="background-color: #b4cc14;">
+          <img src="ecoQr.png" alt="Project Thumbnail">
+          <div class="project-info">
+            <h3>EcoQR App</h3>
+            <p class="tech-stack">Tech-Stack: Figma, Canva</p>
+            <p class="description">I created a prototype for an app which let you scan a QR code shown on a smart bin and get reward points.</p>
+            <a href="https://www.figma.com/proto/T9IuTGAPdrrcx7h2f3yCPY/smartBin?node-id=5-36&p=f&t=NiZZSy0sha81O2UT-1" target="_blank" class="github-btn">View on Figma</a>
+          </div>
+        </div>
+
+        <div class="project-card" style="background-color: #3e3618;">
+          <img src="bloomie.png"  alt="Project Thumbnail">
+          <div class="project-info">
+            <h3>Bloomie</h3>
+            <p class="tech-stack">Tech-Stack: Figma</p>
+            <p class="description">I created website prototype for a flower shop with carousel sliding feature.</p>
+            <a href="https://www.figma.com/proto/IHybzGn214uyrrrCAVlAXF/Bloomie?node-id=0-1&t=Bq6Tc02zJbWwhc0L-1" target="_blank" class="github-btn">View on Figma</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Frontend -->
+    <div class="tab-content" id="frontend">
+      <div class="project-grid">
+        <div class="project-card" style="background-color: #f5c71a;">
+          <img src="frontend.jpeg" style="max-width: 100%; height: auto;" alt="Project Thumbnail">
+          <div class="project-info">
+            <h3>Portfolio</h3>
+            <p class="tech-stack">Tech-Stack: HTML, CSS, Javascript</p>
+            <p class="description">Made a personal portfolio using HTML and CSS and basic JavaScript while keeping a clean UI.</p>
+            <a href="https://github.com/illa08" target="_blank" class="github-btn">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab switching script -->
+  <script>
+    const buttons = document.querySelectorAll('.tab-btn');
+    const contents = document.querySelectorAll('.tab-content');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        const target = button.dataset.tab;
+
+        buttons.forEach(btn => btn.classList.remove('active'));
+        contents.forEach(content => content.classList.remove('active'));
+
+        button.classList.add('active');
+        document.getElementById(target).classList.add('active');
+      });
+    });
+  </script>
+
+</main>
+
+<footer id="contact">
+    <div class="group">
+     <div class="left">
+        <h4 style="font-family: 'The Girl Next Door', cursive; font-weight:800; font-size:x-large;">Contact me!</h4>
+        <p>report a typo, or work with me:</p>
+        <a href="the.illa.04@gmail.com">the.illa.04@gmail.com</a>
+     </div>
+     <div class="right">
+    <a href="https://github.com/illa08" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-github"></i>  
+    </a>
+     <a href="https://www.linkedin.com/in/illa08/" target="_blank" rel="noopener noreferrer">
+     <i class="fa-brands fa-linkedin"></i>                   
+     </a>
+     </div>
+    </div>
+</footer>
+
+</body>
+</html>
